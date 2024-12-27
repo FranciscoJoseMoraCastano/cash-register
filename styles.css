@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --dark-blue: #1e2a47;
+    --light-green: #00bfae;
+    --dark-green: #006d5b;
+    --light-gray: #d0d8e4;
+    --bright-yellow: #ffd700;
+    --background-color: #f4f9f9;
+    --button-hover: #007f74;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    font-family: 'Arial', sans-serif;
+    color: var(--light-gray);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #change-due {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: var(--dark-green);
+  }
+  
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+  }
+  
+  .user-input {
+    height: 35px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid var(--light-green);
+    color: var(--dark-blue);
+  }
+  
+  .check-btn-styles {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--light-green);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    padding: 5px 0 5px 0;
+  }
+  
+  .check-btn-styles:hover {
+    background-color: var(--button-hover);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .top-display-screen-container {
+    background-color: var(--dark-blue);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .price-screen {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .top-register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: var(--light-green);
+    width: 60%;
+  }
+  
+  .btns-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 45%;
+  }
+  
+  .btn {
+    background-color: var(--dark-green);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    height: 40px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: var(--button-hover);
+  }
+  
+  .zero {
+    grid-column: span 2; /* Este botón ocupa 2 columnas para estar centrado */
+  }
+  
+  .point {
+    background-color: #ffa500;
+  }
+  
+  .clear {
+    background-color: #d9534f;
+  }
+  
+  .cash-drawer-display {
+    font-size: 1.1rem;
+    background-color: var(--dark-green); /* Asegúrate de que el fondo se vea bien */
+    width: 45%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-top: 20px; /* Asegura que esté separado del resto */
+  }
+  
+  .bottom-register {
+    background-color: var(--light-green);
+    height: 50px;
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .circle {
+    margin: 15px auto;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+  }
+  
